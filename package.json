@@ -1,0 +1,15 @@
+{
+  "name": "@pascaljp/soracom",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Koichi Suematsu",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@openapitools/openapi-generator-cli": "^2.2.5"
+  },
+  "description": "Soracom API with TypeScript support, mostly auto-generated from OpenAPI yaml file."
+}
