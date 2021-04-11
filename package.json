@@ -11,6 +11,7 @@
     "@openapitools/openapi-generator-cli": "^2.2.5"
   },
   "description": "Soracom API with TypeScript support, auto-generated from OpenAPI yaml file.",
+  "types": "./types/index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pascaljp/soracom.git"
