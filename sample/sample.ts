@@ -1,4 +1,4 @@
-import * as Soracom from "../ts/genfiles";
+import * as Soracom from "../";
 
 async function main() {
   const authApi = new Soracom.AuthApi();
