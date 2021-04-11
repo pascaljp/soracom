@@ -8,7 +8,8 @@
   "author": "Koichi Suematsu",
   "license": "MIT",
   "devDependencies": {
-    "@openapitools/openapi-generator-cli": "^2.2.5"
+    "@openapitools/openapi-generator-cli": "^2.2.5",
+    "@types/node": "^14.14.37"
   },
   "description": "Soracom API with TypeScript support, auto-generated from OpenAPI yaml file.",
   "types": "./types/index.d.ts",

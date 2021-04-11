@@ -1,5 +1,4 @@
-import { Configuration } from "../ts/genfiles/configuration";
-import * as Soracom from "../ts/genfiles/api";
+import * as Soracom from "../ts/genfiles";
 
 async function main() {
   const authApi = new Soracom.AuthApi();
@@ -10,7 +9,7 @@ async function main() {
     })
   ).data;
 
-  const auth = new Configuration({
+  const auth = new Soracom.Configuration({
     apiKey: (name: string): string => {
       if (name == "X-Soracom-API-Key" && authResponse.apiKey) {
         return authResponse.apiKey;
