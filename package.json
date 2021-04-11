@@ -1,6 +1,6 @@
 {
   "name": "@pascaljp/soracom",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "js/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -26,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/pascaljp/soracom/issues"
   },
-  "homepage": "https://github.com/pascaljp/soracom#readme"
+  "homepage": "https://github.com/pascaljp/soracom#readme",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
 }
