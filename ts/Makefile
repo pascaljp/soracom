@@ -3,3 +3,7 @@ all: soracom-api.en.yaml
 
 soracom-api.en.yaml:
 	curl https://raw.githubusercontent.com/soracom/soracom-cli/master/generators/assets/soracom-api.en.yaml -O
+
+clean:
+	rm soracom-api.en.yaml
+	rm -r genfiles
