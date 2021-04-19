@@ -1,6 +1,8 @@
 # @pascaljp/soracom
 
 > A library to provide TypeScript / JavaScript API to access [Soracom APIs](https://developers.soracom.io/en/api/).
+> Most of the code is auto generated from the openapi YAML file, so all APIs are supported.
+> If there is any bug or if there is any API that is not supported by this library, please report the problem on [GitHub](https://github.com/pascaljp/soracom/issues).
 
 [![NPM Version][npm-image]][npm-url]
 
@@ -10,9 +12,9 @@
 npm i -S @pascaljp/soracom
 ```
 
-## Usage
+## Usage example
 
-```javascript
+```typescript
 import * as Soracom from "@pascaljp/soracom";
 
 async function main() {
